@@ -68,9 +68,16 @@ class RegisterController extends Controller
             'password' => bcrypt($data['password']),
         ]);
     }
+<<<<<<< HEAD
 
     protected function redirectTo()
     {
         return route('admin.home');
     } 
+=======
+     protected function redirectTo()
+    {
+        return route('admin.home');
+    }
+>>>>>>> Episode-9
 }

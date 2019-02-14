@@ -4,4 +4,8 @@
               <span>Copyright © Tokap 2019</span>
             </div>
           </div>
+<<<<<<< HEAD
         </footer>
+=======
+ </footer>
+>>>>>>> Episode-9

@@ -25,20 +25,35 @@ class LoginController extends Controller
      *
      * @var string
      */
+<<<<<<< HEAD
      
+=======
+    
+>>>>>>> Episode-9
 
     /**
      * Create a new controller instance.
      *
+<<<<<<< HEAD
      * @return void 
+=======
+     * @return void
+>>>>>>> Episode-9
      */
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
     }
+<<<<<<< HEAD
 
     protected function redirectTo()
     {
         return route('admin.home');
     } 
+=======
+    protected function redirectTo()
+    {
+        return route('admin.home');
+    }
+>>>>>>> Episode-9
 }
