@@ -69,15 +69,21 @@ class RegisterController extends Controller
         ]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     protected function redirectTo()
     {
         return route('admin.home');
     } 
 =======
+=======
+>>>>>>> Episode-9
      protected function redirectTo()
     {
         return route('admin.home');
     }
+<<<<<<< HEAD
+>>>>>>> Episode-9
+=======
 >>>>>>> Episode-9
 }

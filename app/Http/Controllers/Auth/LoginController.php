@@ -26,7 +26,11 @@ class LoginController extends Controller
      * @var string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
      
+=======
+    
+>>>>>>> Episode-9
 =======
     
 >>>>>>> Episode-9
@@ -35,7 +39,11 @@ class LoginController extends Controller
      * Create a new controller instance.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return void 
+=======
+     * @return void
+>>>>>>> Episode-9
 =======
      * @return void
 >>>>>>> Episode-9
@@ -45,15 +53,21 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     protected function redirectTo()
     {
         return route('admin.home');
     } 
 =======
+=======
+>>>>>>> Episode-9
     protected function redirectTo()
     {
         return route('admin.home');
     }
+<<<<<<< HEAD
+>>>>>>> Episode-9
+=======
 >>>>>>> Episode-9
 }

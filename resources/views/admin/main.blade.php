@@ -14,6 +14,10 @@
     <link rel="icon" type="image/png" href="{{url('favicon.png')}}">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> Episode-9
 =======
 
 >>>>>>> Episode-9
@@ -24,7 +28,11 @@
     <link href="{{url('theme-sbadmin/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- Custom styles for this template--> 
+=======
+    <!-- Custom styles for this template-->
+>>>>>>> Episode-9
 =======
     <!-- Custom styles for this template-->
 >>>>>>> Episode-9
@@ -34,6 +42,10 @@
 
   <body id="page-top">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> Episode-9
 =======
 
 >>>>>>> Episode-9
@@ -42,6 +54,7 @@
     <div id="wrapper">
 
       <!-- Sidebar -->
+<<<<<<< HEAD
 <<<<<<< HEAD
        @include('admin.sidebar')
 
@@ -52,6 +65,8 @@
           <!-- Page Content -->
          @yield('content')
 =======
+=======
+>>>>>>> Episode-9
       @include('admin.sidebar')
 
       <div id="content-wrapper">
@@ -60,6 +75,9 @@
 
           <!-- Page Content -->
           @yield('content')
+<<<<<<< HEAD
+>>>>>>> Episode-9
+=======
 >>>>>>> Episode-9
 
         </div>
@@ -80,15 +98,21 @@
     </a>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- Modal-->
     @stack('modal')
 
     <!-- Bo otstrap core JavaScript-->
 =======
+=======
+>>>>>>> Episode-9
     <!--  Modal-->
     @stack('modal')
 
     <!-- Bootstrap core JavaScript-->
+<<<<<<< HEAD
+>>>>>>> Episode-9
+=======
 >>>>>>> Episode-9
     <script src="{{url('theme-sbadmin/vendor/jquery/jquery.min.js')}}"></script>
     <script src="{{url('theme-sbadmin/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
@@ -101,6 +125,10 @@
     <script type="text/javascript" src="{{url('theme-sbadmin/js/navbar-nav.js')}}"></script>
     @stack('js')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> Episode-9
 =======
 
 >>>>>>> Episode-9

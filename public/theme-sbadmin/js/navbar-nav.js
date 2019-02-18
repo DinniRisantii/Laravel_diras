@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 $(function(){
 	var current = window.location.href;
 	$('ul.navbar-nav li a').each(function(){
@@ -9,6 +10,8 @@ $(function(){
 	});
 }); 
 =======
+=======
+>>>>>>> Episode-9
 $(function{
 	var current = window.location.href;
 	$('ul.navbar-nav li a').each(function{
@@ -17,5 +20,9 @@ $(function{
 			$this.parents('li').addClass('actiive');
 	}
 });
+<<<<<<< HEAD
+});
+>>>>>>> Episode-9
+=======
 });
 >>>>>>> Episode-9

@@ -1,8 +1,13 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       <a class="navbar-brand mr-1" href="{{route('admin.home')}}}">
       <img src="{{url('images/logo.png')}}">
+=======
+      <a class="navbar-brand mr-1" href="{{route('admin.home')}}">
+        <img src="{{url('images/logo.png')}}">
+>>>>>>> Episode-9
 =======
       <a class="navbar-brand mr-1" href="{{route('admin.home')}}">
         <img src="{{url('images/logo.png')}}">
@@ -18,6 +23,7 @@
 
       <!-- Navbar -->
 <<<<<<< HEAD
+<<<<<<< HEAD
       <ul class="navbar-nav ml-auto ml-md-0">
         
        
@@ -28,12 +34,21 @@
         <li class="nav-item dropdown no-arrow">
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 >>>>>>> Episode-9
+=======
+      <ul class="navbar-nav ml-auto ml-md-0">     
+        <li class="nav-item dropdown no-arrow">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+>>>>>>> Episode-9
             <i class="fas fa-user-circle fa-fw"></i>
             {{Auth::user()->name}}
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a class="dropdown-item" href="{{route('admin.user.setting')}}">Settings</a>
+=======
+            <a class="dropdown-item" href="{{ route('admin.user.setting') }}">Settings</a>
+>>>>>>> Episode-9
 =======
             <a class="dropdown-item" href="{{ route('admin.user.setting') }}">Settings</a>
 >>>>>>> Episode-9
@@ -47,7 +62,11 @@
 
 @push('modal')
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+=======
+ <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+>>>>>>> Episode-9
 =======
  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 >>>>>>> Episode-9
@@ -63,6 +82,7 @@
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a class="btn btn-primary" href="href="{{ route('logout') }}"
               onclick="event.preventDefault();
           document.getElementById('logout-form').submit();">Logout</a>
@@ -72,6 +92,8 @@
           </form>
 
 =======
+=======
+>>>>>>> Episode-9
             <a class="btn btn-primary" href="{{ route('logout') }}"
               onclick="event.preventDefault();
             document.getElementById('logout-form').submit();">Logout</a>
@@ -79,6 +101,9 @@
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                     {{ csrf_field() }}
               </form>
+<<<<<<< HEAD
+>>>>>>> Episode-9
+=======
 >>>>>>> Episode-9
           </div>
         </div>

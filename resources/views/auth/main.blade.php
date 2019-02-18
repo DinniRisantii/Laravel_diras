@@ -12,7 +12,11 @@
 
     <title>Tokap - @yield('title')</title>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <link rel="icon" type="image/png" href="{{url('favicon.png')}}">
+=======
+    <link rel="icon" type="png/image" href="{{url ('favicon.png')}}">
+>>>>>>> Episode-9
 =======
     <link rel="icon" type="png/image" href="{{url ('favicon.png')}}">
 >>>>>>> Episode-9
@@ -45,6 +49,9 @@
 
 </html>
 <<<<<<< HEAD
+<<<<<<< HEAD
  
+=======
+>>>>>>> Episode-9
 =======
 >>>>>>> Episode-9

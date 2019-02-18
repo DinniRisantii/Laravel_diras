@@ -4,10 +4,17 @@
 <h1>User </h1>
 <hr>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 @if(session('result') == 'success')
 <div class="alert alert-success alert-dismissiable fade show">
 	<strong>Updated !</strong> Berhasil diupdate.
+=======
+
+@if(session('result') == 'success')
+<div class="alert alert-success alert-dismissiable fade show">
+	<strong>Updated !</stsrong> Berhasil diupdate.
+>>>>>>> Episode-9
 	<button type="button" class="close" data-dismiss="alert">
 		&times;
 	</button>
@@ -20,6 +27,10 @@
 	</button>
 </div>
 @endif
+<<<<<<< HEAD
+>>>>>>> Episode-9
+=======
+
 >>>>>>> Episode-9
 <div class="row">
 	<div class="col -md-6">
@@ -39,6 +50,10 @@
 					<div class="invalid-feedback">{{$errors->first('name')}}</div>
 					@endif
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> Episode-9
 =======
 
 >>>>>>> Episode-9
