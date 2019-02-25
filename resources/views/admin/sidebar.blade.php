@@ -5,14 +5,5 @@
             <span>Dashboard</span>
           </a>
         </li>
-<<<<<<< HEAD
-<<<<<<< HEAD
-</ul>
-=======
        
       </ul>
->>>>>>> Episode-9
-=======
-       
-      </ul>
->>>>>>> Episode-9

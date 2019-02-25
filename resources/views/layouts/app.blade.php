@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
- <!DOCTYPE html>
-=======
 <!DOCTYPE html>
->>>>>>> Episode-9
-=======
-<!DOCTYPE html>
->>>>>>> Episode-9
 <html lang="{{ app()->getLocale() }}">
 <head>
     <meta charset="utf-8">

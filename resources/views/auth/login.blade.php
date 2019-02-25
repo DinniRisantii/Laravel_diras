@@ -44,13 +44,6 @@
             <a class="d-block small" href="{{route('password.request')}}">Forgot Password?</a>
           </div>
         </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> Episode-9
-=======
-
->>>>>>> Episode-9
 </div>
 @endsection

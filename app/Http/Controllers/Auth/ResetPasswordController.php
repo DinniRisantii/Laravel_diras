@@ -36,22 +36,8 @@ class ResetPasswordController extends Controller
     {
         $this->middleware('guest');
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    protected function redirectTo()
-    {
-        return route('admin.home');
-    } 
-=======
-=======
->>>>>>> Episode-9
      protected function redirectTo()
     {
         return route('admin.home');
     }
-<<<<<<< HEAD
->>>>>>> Episode-9
-=======
->>>>>>> Episode-9
 }
