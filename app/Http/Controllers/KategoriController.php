@@ -61,4 +61,6 @@ class KategoriController extends Controller
         }
         
     }
+  
+
 }

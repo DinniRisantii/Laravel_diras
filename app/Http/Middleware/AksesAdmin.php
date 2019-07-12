@@ -16,7 +16,7 @@ class AksesAdmin
      */
     public function handle($request, Closure $next)
     {
-        if(Auth::user()->akses == 'admin') {
+        if(Auth::user()->akses == 'admin'){
             return $next($request);
         }
         return abort(404);

@@ -35,7 +35,7 @@
 							@endif
 					</div><!--End Form Group-->
 
-					<div class="form-group form-label-group">
+<div class="form-group form-label-group">
 						<input type="email" name="email"
 						class="form-control {{ $errors->has('email')?'is-invalid':'' }}"
 						value="{{ old('email') }}"
@@ -54,7 +54,7 @@
 						@if($errors->has('password'))
 						<div class="invalid-feedback">{{ $errors->first('password') }}</div>
 						@endif
-				     </div><!--End Form Group-->
+					</div><!--End Form Group-->
 
 					<div class="form-group form-label-group">
 						<input type="password" name="repassword"

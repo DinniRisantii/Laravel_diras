@@ -15,7 +15,7 @@
 
 @if(session('result') == 'update')
 <div class="alert alert-success alert-dismissible fade show">
-	<strong>Updated!</strong>Berhasil diupdate.
+	<strong>Update!</strong>Berhasil diupdate.
 	<button type="button" class="close" data-dismiss="alert">
 		&times;
 	</button>
@@ -24,7 +24,7 @@
 
 @if(session('result') == 'delete')
 <div class="alert alert-success alert-dismissible fade show">
-	<strong>Deleted!</strong>Berhasil dihapus.
+	<strong>Deleted!<strong>Berhasil dihapus.
 	<button type="button" class="close" data-dismiss="alert">
 		&times;
 	</button>
@@ -33,8 +33,8 @@
 
 @if(session('result') == 'fail-delete')
 <div class="alert alert-danger alert-dismissible fade show">
-	<strong>Failed!</strong>Gagal dihapus
-	<button type="button" cslass="close" data-dismiss="alert">
+	<strong>Failed!</strong>Gagal dihapus.
+	<button type="button" class="close" data-dismiss="alert">
 		&times;
 	</button>
 </div>
@@ -46,7 +46,7 @@
 	</div>
 
 	<div class="col-md-6 mb-3">
-		<form method="GET" action="{{ route('admin.user') }}">
+		<form method="GET" action="{{route('admin.user')}}">
 			<div class="input-group">
 				<input type="text" name="keyword"
 				value="{{request('keyword')}}"
@@ -78,8 +78,9 @@
 				<i class="fa fa-w fa-edit"></i>
 			</a>
 			@if($dt->id != Auth::id() )
-			<button class="btn btn-danger btn-sm btn-trash"
-			data-id="{{ $dt->id }}" 
+			<button class="btn btn-danger btn-sm" type="button">
+			<button class="btn btn-danger btn-sm btn-trash" 
+			data-id="{{ $dt->id }}"
 			type="button">
 				<i class="fa fa-w fa-trash"></i>
 			</button>
@@ -97,7 +98,6 @@
 
 @endsection
 
-
 @push('modal')
 <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog">
 	<div class="modal-dialog" role="document">
@@ -108,40 +108,39 @@
 				<button class="close" type="button" data-dismiss="modal">
 					<span>x</span>
 				</button>
-			</div><!--end modal header-->
+			</div><!-- End Modal Header -->
 
 			<div class="modal-body">
 				Apakah anda yakin ingin menghapusnya?
-				<form id="form-delete" method="post" action="{{  route('admin.user') }}">
+				<form id="form-delete" method="post" action="{{route('admin.user')}}">
 					{{ csrf_field() }}
 					{{ method_field('delete') }}
 					<input type="hidden" name="id" id="input-id">
 				</form>
-			</div><!--end modal body-->
+			</div>><!-- End Modal Body -->
 
 			<div class="modal-footer">
-				<button class="btn btn-secondary" type="button" data-dismiss="modal">Cancle</button>
+				<button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
 				<button class="btn btn-primary btn-delete" type="button">Delete</button>
 			</div>
 
-		</div><!--end modal content-->
-	</div><!--end modal dialog -->
+		</div><!-- End Modal Content -->
+	</div><!-- End Modal Dialog -->
 </div>
 @endpush
 
-
 @push('js')
 <script type="text/javascript">
-	$(function(){
-		$('.btn-trash').click(function(){
-			id = $(this).attr('data-id');
-			$('#input-id').val(id);
-			$('#deleteModal').modal('show');
-		});
+$(function(){
+	$('.btn-trash').click(function(){
+		id = $(this).attr('data-id');
+		$('#input-id').val(id);
+		$('#deleteModal').modal('show');
+	});
 
-		$('.btn-delete').click(function(){
-			$('#form-delete').submit();
-		});
-	})
+	$('.btn-delete').click(function(){
+	$('#form-delete').submit();
+	});
+})
 </script>
 @endpush

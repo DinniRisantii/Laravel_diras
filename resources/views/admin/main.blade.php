@@ -13,7 +13,6 @@
     <title>@yield('title') Tokap Admin</title>
     <link rel="icon" type="image/png" href="{{url('favicon.png')}}">
 
-
     <!-- Bootstrap core CSS-->
     <link href="{{url('theme-sbadmin/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
@@ -23,6 +22,7 @@
     <!-- Custom styles for this template-->
     <link href="{{url('theme-sbadmin/css/sb-admin.css')}}" rel="stylesheet">
     @stack('css')
+
   </head>
 
   <body id="page-top">
@@ -37,6 +37,7 @@
       <div id="content-wrapper">
 
         <div class="container-fluid">
+
 
           <!-- Page Content -->
           @yield('content')
@@ -58,7 +59,7 @@
       <i class="fas fa-angle-up"></i>
     </a>
 
-    <!--  Modal-->
+    <!-- Modal-->
     @stack('modal')
 
     <!-- Bootstrap core JavaScript-->

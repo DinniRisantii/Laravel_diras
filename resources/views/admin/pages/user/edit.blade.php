@@ -35,7 +35,7 @@
 							@endif
 					</div><!--End Form Group-->
 
-				<div class="form-group form-label-group">
+<div class="form-group form-label-group">
 						<input type="email" name="email"
 						class="form-control {{ $errors->has('email')?'is-invalid':'' }}"
 						value="{{ old('email',$rc->email) }}"
