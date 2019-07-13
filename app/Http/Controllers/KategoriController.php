@@ -58,9 +58,17 @@ class KategoriController extends Controller
             return redirect()->route('admin.kategori')->with('result','update');
         } else {
             return back()->with('result','fail');
-        }
-        
+        }   
     }
-  
 
+
+    public function delete(Request $req)
+    {
+        $result = Kategori::find($req->id);
+        if ($result->delete()){
+            return back()->with('result','delete');
+        } else {
+            return back()->with('result','fail-delete');
+        }
+    }
 }
